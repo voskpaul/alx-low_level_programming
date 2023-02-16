@@ -1,4 +1,3 @@
-vi 5-printf.c
 #include <stdio.h>
 
 /**
