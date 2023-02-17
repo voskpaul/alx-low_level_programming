@@ -31,4 +31,19 @@ int main(void)
 				putchar(f_d);
 				putchar(l_d);
 				putchar(' ');
-				putcha
+				putchar(f_d2);
+				putchar(l_d2);
+
+				if (c != 98)
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+			c2++;
+		}
+		c++;
+	}
+	putchar('\n');
+	return (0);
+}
