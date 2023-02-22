@@ -1,16 +1,12 @@
-#include "holberton.h"
+#ifndef MAIN_H
 
-/**
-  * main - Test function for positive or negative
-  * Return: 0
-  */
+#define MAIN_H
 
-int main(void)
-{
-int i;
+#include <stdio.h>
 
-i = 0;
-positive_or_negative(i);
+void positive_or_negative(int i);
+int largest_number(int a,int b,int c);
+int convert_day(int month,int day);
+void print_remaing_days(int month, int day, int year);
 
-return (0);
-}
+#endif /* MAIN_H */
